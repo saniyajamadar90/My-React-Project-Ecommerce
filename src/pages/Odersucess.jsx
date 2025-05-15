@@ -16,38 +16,41 @@ export default function Ordersuccess() {
             alignItems: "center",
             height: "100vh",
             textAlign: "center",
-            backgroundColor: "#f5f5f5",
+            background: "linear-gradient(135deg,rgb(179, 120, 233),rgb(155, 114, 185))",
             padding: "20px",
-            fontFamily: "'Segoe UI', sans-serif"
+            fontFamily: "'Orbitron', sans-serif",
+            color: "#fff"
         },
         title: {
-            fontSize: "2.5rem",
-            color: "#4CAF50",
+            fontSize: "3rem",
+            color: "fefefe", // Neon green
+            textShadow: "0 0 10pxrgb(20, 102, 255), 0 0 20pxrgb(20, 255, 161)",
             marginBottom: "20px"
         },
         message: {
-            fontSize: "1.2rem",
-            color: "#333",
+            fontSize: "1.5rem",
+            color: "7552cc",
             marginBottom: "30px"
         },
         button: {
-            padding: "12px 25px",
-            fontSize: "1rem",
-            backgroundColor: "#4CAF50",
-            color: "#fff",
+            padding: "14px 30px",
+            fontSize: "1.1rem",
+            background: "linear-gradient(45deg,rgb(171, 102, 228),rgb(101, 65, 173))",
+            color: "7552cc",
             border: "none",
-            borderRadius: "6px",
+            borderRadius: "8px",
             cursor: "pointer",
-            transition: "background 0.3s ease",
-            textDecoration: "none"
+            boxShadow: "0 0 10pxrgb(145, 71, 210), 0 0 20pxrgb(131, 92, 210)",
+            textDecoration: "none",
+            transition: "transform 0.2s ease, box-shadow 0.3s ease"
         }
     };
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.title}>🎉 Order Placed Successfully!</h1>
-            <p style={styles.message}>Thank you for shopping with us.</p>
-            <a href="/" style={styles.button}>Go to Home</a>
+            <h1 style={styles.title}>🚀 Order Placed Successfully!</h1>
+            <p style={styles.message}>Thank you for shopping with us. Enjoy the glow!</p>
+            <a href="/" style={styles.button}>🏠 Go to Home</a>
         </div>
     );
 }

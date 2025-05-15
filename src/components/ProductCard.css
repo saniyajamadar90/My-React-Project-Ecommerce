@@ -1,7 +1,7 @@
 .product-card {
     background-color: aliceblue;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rosybrown;
+    box-shadow: 0 6px 12px rgb(92, 172, 230);
     padding: 1rem;
     text-align: center;
     transition: transfrom 0.2s ease, box-shadow 0.2s ease;
@@ -16,7 +16,7 @@
 
 .product-card:hover {
 transform: translatey(-5px);
-box-shadow: 0 12px 20px greenyellow;
+box-shadow: 0 12px 20px rgb(95, 46, 148);
 }
 .product-card img {
     width: 100%;

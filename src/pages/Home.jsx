@@ -52,7 +52,7 @@ export default function Home() {
             fontSize: "1rem",
             borderRadius: "6px",
             border: "1px solid #ccc",
-            minWidth: "180px"
+            minWidth: "160px"
         },
         grid: {
             display: "grid",
@@ -65,7 +65,7 @@ export default function Home() {
         <div style={styles.container}>
             <h1 style={styles.heading}>
                 <FaStoreAlt size={30} color="rebeccapurple" />
-                Explore Our Products
+                Explore Curio Products
             </h1>
             <div style={styles.filters}>
                 <input
